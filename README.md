@@ -62,7 +62,14 @@ var swaggerDoc = SwaggerParser.ParseSwaggerJson(swaggerJson);
 var generatedCode = ApiClientGenerator.GenerateApiClient(swaggerDoc);
 File.WriteAllText("GeneratedClient.cs", generatedCode);
 ```
+### With URL :
 
+```csharp
+var json = await new HttpClient().GetStringAsync("https://api.example.com/swagger.json");
+using var swagger = JsonDocument.Parse(json);
+var code = ApiClientGenerator.GenerateApiClient(swagger);
+```
+### ٌهف
 ---
 
 ## 📄 License
