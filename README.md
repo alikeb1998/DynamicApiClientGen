@@ -91,3 +91,6 @@ GitHub: [github.com/alikeb1998/DynamicApiClientGen](https://github.com/alikeb199
 
 Feel free to open [issues](https://github.com/alikeb1998/DynamicApiClientGen/issues) or submit pull requests.
 Feedback and contributions are always welcome!
+---
+> ☕ Like this project? [Buy me a coffee](https://buymeacoffee.com/alikeb) — every bit of support helps!
+
